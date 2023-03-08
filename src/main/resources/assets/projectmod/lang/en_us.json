@@ -1,3 +1,6 @@
 {
-  "item.projectmod.black_opal": "Black Opal"
+  "item.projectmod.black_opal": "Black Opal",
+  "item.projectmod.raw_black_opal": "Raw Black Opal",
+
+  "creativemodetab.project_tab": "Project Tab"
 }

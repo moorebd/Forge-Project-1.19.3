@@ -2,6 +2,7 @@ package net.benmoore.projectmod;
 
 import com.mojang.logging.LogUtils;
 import net.benmoore.projectmod.item.ModItems;
+import net.benmoore.projectmod.item.ModCreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -42,6 +43,11 @@ public class ProjectMod
     private void addCreative(CreativeModeTabEvent.BuildContents event){
         if(event.getTab() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.BLACK_OPAL);
+            event.accept(ModItems.RAW_BLACK_OPAL);
+        }
+        if(event.getTab() == ModCreativeModeTabs.PROJECT_TAB){
+            event.accept(ModItems.BLACK_OPAL);
+            event.accept(ModItems.RAW_BLACK_OPAL);
         }
     }
 
