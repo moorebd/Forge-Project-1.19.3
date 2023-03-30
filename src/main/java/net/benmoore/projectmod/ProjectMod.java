@@ -44,10 +44,12 @@ public class ProjectMod
         if(event.getTab() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.BLACK_OPAL);
             event.accept(ModItems.RAW_BLACK_OPAL);
+            event.accept(ModItems.OPAL_SWORD);
         }
         if(event.getTab() == ModCreativeModeTabs.PROJECT_TAB){
             event.accept(ModItems.BLACK_OPAL);
             event.accept(ModItems.RAW_BLACK_OPAL);
+            event.accept(ModItems.OPAL_SWORD);
         }
     }
 
