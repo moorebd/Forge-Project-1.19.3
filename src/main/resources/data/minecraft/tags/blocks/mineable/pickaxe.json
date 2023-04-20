@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "projectmod:black_opal_ore",
+    "projectmod:black_opal_block",
+    "projectmod:deepslate_black_opal_ore",
+    "projectmod:endstone_black_opal_block",
+    "projectmod:netherrack_black_opal_block"
+  ]
+}

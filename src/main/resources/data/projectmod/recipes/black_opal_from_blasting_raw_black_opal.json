@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "black-opal",
+  "ingredients": {
+    "item": "projectmod:raw_black_opal"
+  },
+  "result": "projectmod:black_opal"
+}
