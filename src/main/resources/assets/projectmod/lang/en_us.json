@@ -1,12 +1,14 @@
 {
   "item.projectmod.black_opal": "Black Opal",
   "item.projectmod.raw_black_opal": "Raw Black Opal",
-  "item.projectmod.opal_sword": "Opal Sword",
-  "block.projectmod.black_opal_block": "Black Opal Block",
+
+
+  "block.projectmod.black_opal_block": "Block of Black Opal",
   "block.projectmod.black_opal_ore": "Black Opal Ore",
   "block.projectmod.deepslate_black_opal_ore": "Deepslate Black Opal Ore",
-  "block.projectmod.netherrack_black_opal_ore": "Netherrack Black Opal Ore",
   "block.projectmod.endstone_black_opal_ore": "Endstone Black Opal Ore",
+  "block.projectmod.netherrack_black_opal_ore": "Netherrack Black Opal Ore",
+
 
   "creativemodetab.project_tab": "Project Tab"
 }
