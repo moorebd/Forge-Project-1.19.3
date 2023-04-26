@@ -1,3 +1,6 @@
 {
-  "parent": "projectmod:item/opal_sword"
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "projectmod:item/opal_sword"
+  }
 }

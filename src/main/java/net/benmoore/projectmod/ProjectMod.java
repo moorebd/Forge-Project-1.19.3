@@ -2,7 +2,9 @@ package net.benmoore.projectmod;
 
 import com.mojang.logging.LogUtils;
 import net.benmoore.projectmod.block.ModBlocks;
+import net.benmoore.projectmod.entity.client.CrypticRenderer;
 import net.benmoore.projectmod.item.ModItems;
+import net.benmoore.projectmod.entity.ModEntities;
 import net.benmoore.projectmod.item.ModCreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -11,6 +13,7 @@ import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -31,6 +34,7 @@ public class ProjectMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
+        ModEntities.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -66,18 +70,16 @@ public class ProjectMod
             event.accept(ModBlocks.NETHERRACK_BLACK_OPAL_ORE);
             event.accept(ModBlocks.ENDSTONE_BLACK_OPAL_ORE);
             event.accept(ModItems.OPAL_SWORD);
-            //event.accept(ModItems.CRYPTIC_SPAWN_EGG);
+            event.accept(ModItems.CRYPTIC_SPAWN_EGG);
         }
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
+    public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-
+        public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.CRYPTIC.get(), CrypticRenderer::new);
         }
     }
 }
