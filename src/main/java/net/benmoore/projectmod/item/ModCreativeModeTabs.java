@@ -14,7 +14,7 @@ public class ModCreativeModeTabs {
     public static CreativeModeTab PROJECT_TAB;
 
     @SubscribeEvent
-    static void registerCreativeModeTabs(CreativeModeTabEvent.Register event){
+    public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
         PROJECT_TAB = event.registerCreativeModeTab(new ResourceLocation(ProjectMod.MOD_ID, "project_tab"),
                 builder -> builder.icon(() -> new ItemStack(ModItems.BLACK_OPAL.get()))
                         .title(Component.translatable("creativemodetab.project_tab")));

@@ -45,7 +45,7 @@ public class ProjectMod
         if(event.getTab() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.BLACK_OPAL);
             event.accept(ModItems.RAW_BLACK_OPAL);
-            //event.accept(ModItems.OPAL_SWORD);
+            event.accept(ModItems.OPAL_SWORD);
         }
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.BLACK_OPAL_BLOCK);
@@ -65,7 +65,8 @@ public class ProjectMod
             event.accept(ModBlocks.DEEPSLATE_BLACK_OPAL_ORE);
             event.accept(ModBlocks.NETHERRACK_BLACK_OPAL_ORE);
             event.accept(ModBlocks.ENDSTONE_BLACK_OPAL_ORE);
-            //event.accept(ModItems.OPAL_SWORD);
+            event.accept(ModItems.OPAL_SWORD);
+            //event.accept(ModItems.CRYPTIC_SPAWN_EGG);
         }
     }
 

@@ -22,8 +22,10 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_BLACK_OPAL = ITEMS.register("raw_black_opal",
             () -> new Item(new Item.Properties()));
 
-   // public static final RegistryObject<SwordItem> OPAL_SWORD = ITEMS.register("opal_sword",
-     //       () -> new SwordItem(Tiers.EXAMPLE, 5, 3.5f, new Item.Properties()));
+   public static final RegistryObject<SwordItem> OPAL_SWORD = ITEMS.register("opal_sword",
+            () -> new SwordItem(Tiers.EXAMPLE, 5, 3.5f, new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus){
        ITEMS.register(eventBus);
