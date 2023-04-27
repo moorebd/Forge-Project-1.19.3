@@ -47,29 +47,29 @@ public class ProjectMod
 
     private void addCreative(CreativeModeTabEvent.BuildContents event){
         if(event.getTab() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.BLACK_OPAL);
-            event.accept(ModItems.RAW_BLACK_OPAL);
-            event.accept(ModItems.OPAL_SWORD);
+            event.accept(ModItems.IRIDESCENT_OBSIDIAN);
+            event.accept(ModItems.RAW_IRIDESCENT_OBSIDIAN);
+            event.accept(ModItems.IRIDESCENT_OBSIDIAN_SWORD);
         }
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(ModBlocks.BLACK_OPAL_BLOCK);
+            event.accept(ModBlocks.IRIDESCENT_OBSIDIAN_BLOCK);
         }
         if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS){
-            event.accept(ModBlocks.BLACK_OPAL_ORE);
-            event.accept(ModBlocks.DEEPSLATE_BLACK_OPAL_ORE);
-            event.accept(ModBlocks.NETHERRACK_BLACK_OPAL_ORE);
-            event.accept(ModBlocks.ENDSTONE_BLACK_OPAL_ORE);
+            event.accept(ModBlocks.IRIDESCENT_OBSIDIAN_ORE);
+            event.accept(ModBlocks.DEEPSLATE_IRIDESCENT_OBSIDIAN_ORE);
+            event.accept(ModBlocks.NETHERRACK_IRIDESCENT_OBSIDIAN_ORE);
+            event.accept(ModBlocks.ENDSTONE_IRIDESCENT_OBSIDIAN_ORE);
         }
 
         if(event.getTab() == ModCreativeModeTabs.PROJECT_TAB){
-            event.accept(ModItems.BLACK_OPAL);
-            event.accept(ModItems.RAW_BLACK_OPAL);
-            event.accept(ModBlocks.BLACK_OPAL_BLOCK);
-            event.accept(ModBlocks.BLACK_OPAL_ORE);
-            event.accept(ModBlocks.DEEPSLATE_BLACK_OPAL_ORE);
-            event.accept(ModBlocks.NETHERRACK_BLACK_OPAL_ORE);
-            event.accept(ModBlocks.ENDSTONE_BLACK_OPAL_ORE);
-            event.accept(ModItems.OPAL_SWORD);
+            event.accept(ModItems.IRIDESCENT_OBSIDIAN);
+            event.accept(ModItems.RAW_IRIDESCENT_OBSIDIAN);
+            event.accept(ModBlocks.IRIDESCENT_OBSIDIAN_BLOCK);
+            event.accept(ModBlocks.IRIDESCENT_OBSIDIAN_ORE);
+            event.accept(ModBlocks.DEEPSLATE_IRIDESCENT_OBSIDIAN_ORE);
+            event.accept(ModBlocks.NETHERRACK_IRIDESCENT_OBSIDIAN_ORE);
+            event.accept(ModBlocks.ENDSTONE_IRIDESCENT_OBSIDIAN_ORE);
+            event.accept(ModItems.IRIDESCENT_OBSIDIAN_SWORD);
             event.accept(ModItems.CRYPTIC_SPAWN_EGG);
         }
     }

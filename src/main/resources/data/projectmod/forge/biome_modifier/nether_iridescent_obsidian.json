@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_nether",
+  "features": "projectmod:nether_iridescent_obsidian_placed",
+  "step": "underground_ores"
+}

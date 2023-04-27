@@ -19,12 +19,12 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ProjectMod.MOD_ID);
 
-    public static final RegistryObject<Item> BLACK_OPAL = ITEMS.register("black_opal",
+    public static final RegistryObject<Item> IRIDESCENT_OBSIDIAN = ITEMS.register("iridescent_obsidian",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_BLACK_OPAL = ITEMS.register("raw_black_opal",
+    public static final RegistryObject<Item> RAW_IRIDESCENT_OBSIDIAN = ITEMS.register("raw_iridescent_obsidian",
             () -> new Item(new Item.Properties()));
 
-   public static final RegistryObject<SwordItem> OPAL_SWORD = ITEMS.register("opal_sword",
+   public static final RegistryObject<SwordItem> IRIDESCENT_OBSIDIAN_SWORD = ITEMS.register("iridescent_obsidian_sword",
             () -> new SwordItem(Tiers.EXAMPLE, 5, 3.5f, new Item.Properties()));
 
     public static final RegistryObject<Item> CRYPTIC_SPAWN_EGG = ITEMS.register("cryptic_spawn_egg",
@@ -43,6 +43,6 @@ public class ModItems {
                 3,
                 350,
                 null,
-                () -> Ingredient.of(ModItems.BLACK_OPAL.get()));
+                () -> Ingredient.of(ModItems.IRIDESCENT_OBSIDIAN.get()));
     }
 }

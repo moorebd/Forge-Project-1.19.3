@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "projectmod:block/deepslate_iridescent_obsidian_ore"
+  }
+}

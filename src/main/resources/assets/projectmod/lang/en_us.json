@@ -1,15 +1,15 @@
 {
-  "item.projectmod.black_opal": "Black Opal",
-  "item.projectmod.raw_black_opal": "Raw Black Opal",
-  "item.projectmod.opal_sword": "Opal Sword",
+  "item.projectmod.iridescent_obsidian": "Iridescent Obsidian",
+  "item.projectmod.raw_iridescent_obsidian": "Raw Iridescent Obsidian",
+  "item.projectmod.iridescent_obsidian_sword": "Iridescent Obsidian Sword",
   "item.projectmod.cryptic_spawn_egg": "Cryptic Spawn Egg",
 
 
-  "block.projectmod.black_opal_block": "Block of Black Opal",
-  "block.projectmod.black_opal_ore": "Black Opal Ore",
-  "block.projectmod.deepslate_black_opal_ore": "Deepslate Black Opal Ore",
-  "block.projectmod.endstone_black_opal_ore": "Endstone Black Opal Ore",
-  "block.projectmod.netherrack_black_opal_ore": "Netherrack Black Opal Ore",
+  "block.projectmod.iridescent_obsidian_block": "Block of Iridescent Obsidian",
+  "block.projectmod.iridescent_obsidian_ore": "Iridescent Obsidian Ore",
+  "block.projectmod.deepslate_iridescent_obsidian_ore": "Deepslate Iridescent Obsidian Ore",
+  "block.projectmod.endstone_iridescent_obsidian_ore": "Endstone Iridescent Obsidian Ore",
+  "block.projectmod.netherrack_iridescent_obsidian_ore": "Netherrack Iridescent Obsidian Ore",
 
 
   "creativemodetab.project_tab": "Project Tab"
